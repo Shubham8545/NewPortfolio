@@ -1,5 +1,5 @@
 .logo{
-    float: left;
+    display: inline-block;
     width: 40px;
     height: 40px;
     background-image: url('../img/logo.png');
@@ -9,8 +9,15 @@
     cursor: pointer;
 }
 .social{
+    margin-left: 10px;
     text-align: center;
-    margin-top: 25vh;
+    padding-bottom: 6vh;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
 }
 .social_logo{
     width: 28px;
